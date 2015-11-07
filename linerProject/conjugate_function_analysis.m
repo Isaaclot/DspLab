@@ -6,16 +6,16 @@ a=0.5;
 xen=a*[a.^n+a.^(-n)];
 xon=a*[a.^n-a.^(-n)];
 
-
+subplot(2,1,1);
 stem(n,xen,'r');
 title('Timer Quote of xen');
 xlabel('n');
 ylabel('xen');
 grid on;
 
-figure
-stem(n,xon,'y');
-title('Timer Quote of xon');
+subplot(2,1,2);
+stem(n,xon,'g');
+title('Timer Quote of xon'+date);
 xlabel('n');
 ylabel('xon');
 grid on;

@@ -14,8 +14,6 @@ a2=input('Please input b1:');
 a=[1,a1,12];
 b=[b0,b1,b2];
 
-
-
 n=-5:5;
 xn=(0.5).^n;
 
@@ -25,9 +23,7 @@ yn=filter(b,a,xn,xi);   %losute
 
 stem(n,yn,'.r');
 grid on;
-title('Result from xn inout wava');
+title('Result from xn inout wava'+date);
 xlabel('n');
 ylabel('yn');
-
-
 
