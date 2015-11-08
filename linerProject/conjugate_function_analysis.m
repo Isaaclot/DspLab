@@ -15,7 +15,7 @@ grid on;
 
 subplot(2,1,2);
 stem(n,xon,'g');
-title('Timer Quote of xon'+date);
+title('Timer Quote of xon');
 xlabel('n');
 ylabel('xon');
 grid on;

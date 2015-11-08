@@ -3,7 +3,7 @@ clear;
 
 n=0:1:10;
 x=(0.5).^n;
-title('Wave'+date);
+title('Wave');
 stem(n,x,'r');
 xlabel('n');
 ylabel('x(n)');

@@ -23,7 +23,7 @@ yn=filter(b,a,xn,xi);   %losute
 
 stem(n,yn,'.r');
 grid on;
-title('Result from xn inout wava'+date);
+title('Result from xn inout wava');
 xlabel('n');
 ylabel('yn');
 
