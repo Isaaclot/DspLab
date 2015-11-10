@@ -18,7 +18,7 @@ n=-5:5;
 xn=(0.5).^n;
 
 
-xi=filtic(b,a,0);   %initilize input
+xi=filtic(b,a,2);   %initilize input
 yn=filter(b,a,xn,xi);   %solute
 
 stem(n,yn,'.r');
